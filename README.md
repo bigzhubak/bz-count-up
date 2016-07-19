@@ -1,4 +1,4 @@
-# bz-script-loader
+# bz-count-up
 
 > some oauth2 button with vue.js base on semantic ui
 
