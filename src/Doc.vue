@@ -1,4 +1,4 @@
-<style lang=less>
+<style>
 </style>
 
 <template>
@@ -11,9 +11,6 @@
         <tr><th>参数</th><th>说明</th></tr>
       </thead>
       <tbody>
-        <tr v-show="parm_desc">
-          <td colspan="2" v-html="parm_desc"></td>
-        </tr>
         <tr v-for="parm in parms"> <td class="single line"> {{parm.parm}} </td> <td> {{parm.desc}} </td></tr>
       </tbody>
     </table>
@@ -35,12 +32,6 @@
 </template>
 
 <script>
-  import 'semantic-ui/dist/components/site.css'
-  import 'semantic-ui/dist/components/reset.css'
-  import 'semantic-ui/dist/components/table.css'
-  import 'semantic-ui/dist/components/container.css'
-  import 'semantic-ui/dist/components/divider.css'
-  import 'semantic-ui/dist/components/button.css'
   import CountUp from './Bz'
   export default {
     components: {

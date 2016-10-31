@@ -48,8 +48,7 @@
         this.count_up.update(val)
       }
     },
-    created () {
-      // instantiate the countUp for the element
+    mounted () {
       this.count_up = new CountUp(this.$el, this.startValue,
         this.endValue,
         this.decimalValue,
