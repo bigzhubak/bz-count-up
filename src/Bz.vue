@@ -48,7 +48,7 @@
         this.count_up.update(val)
       }
     },
-    ready () {
+    created () {
       // instantiate the countUp for the element
       this.count_up = new CountUp(this.$el, this.startValue,
         this.endValue,
