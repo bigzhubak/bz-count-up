@@ -1,5 +1,5 @@
 module.exports = {
-  jquery: 'jQuery',
-  'countup.js': 'countup.js'
+  jQuery: 'jQuery'
+  // 'countup.js': 'countup.js'
 }
 

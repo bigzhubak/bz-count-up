@@ -1,8 +1,7 @@
 <template>
   <span></span>
 </template>
-<style>
-</style>
+
 <script>
   import CountUp from 'countup.js'
   export default{
@@ -61,3 +60,6 @@
     }
   }
 </script>
+
+<style>
+</style>
