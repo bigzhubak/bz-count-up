@@ -25,7 +25,9 @@
     "build": "node build/build.js",
     "test": ""
   },
-  "dependencies": {},
+  "dependencies": {
+    "countup.js": "^1.7.1"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.0",
     "babel-core": "^6.17.0",
