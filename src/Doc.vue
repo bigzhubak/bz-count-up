@@ -1,6 +1,3 @@
-<style>
-</style>
-
 <template>
   <div class="ui container segment">
     <h1>CountUp</h1>
