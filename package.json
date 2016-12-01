@@ -3,6 +3,10 @@
   "version": "2.0.0",
   "description": "bz-base",
   "main": "src/Bz.vue",
+  "name": "bz-count-up",
+  "version": "2.0.8",
+  "description": "bz-count-up",
+  "main": "dist/main.js",
   "keywords": [
     "vue",
     "component",
