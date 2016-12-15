@@ -1,6 +1,6 @@
-# bz-base
+# bz-count-up
 
-> bz-base
+> bz-count-up
 
 ## Build Setup
 
